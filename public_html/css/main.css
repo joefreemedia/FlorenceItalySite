@@ -1,0 +1,398 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+Changed By Geoffrey Trenard 3-30-2017: 8:15pm
+   ========================================================================== */
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+
+/* Custom Link Colors */
+
+a{
+    color: #2076CF;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+/* Custom Header Font */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    color:#2d313e;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* Custom Body Font */
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.428571;
+    margin-bottom: 60px;
+}
+
+.jumbotron {
+    background-image: url(../img/florence_panorama.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center -30%;
+    color: #fff;
+    text-shadow: 2px 2px 0px #000;
+    min-height: 200px;
+}
+
+
+.navbar-custom {
+    /*new color GT */
+    background-color: #2076CF;
+    /*background-color: #212539;*/
+    color: white;
+}
+
+.navbar-custom:hover {
+    color: white;
+}
+
+.navbar-custom li a:hover {
+    color: #0d4c8d;
+    background-color: white;
+}
+
+.navbar-custom li a:focus {
+    background-color: transparent;
+}
+
+.navbar-custom li a {
+    color: white;
+}
+
+.dropdown {
+    color: #0d4c8d;
+}
+
+.dropdown li a {
+    color: #0d4c8d;
+}
+
+.btn-custom, btn-custom:hover, btn-custom:active {
+    color: white;
+    /*new color GT */
+    background-color: #f99e3e;
+    /*
+    background-color: #6e85b5;*/
+}
+.btn-custom:hover{
+    /*New color GT*/
+    color:#fff;
+    background-color:#2076cf;
+    /*color: #212539;*/
+}
+
+/* navbar custom button - newsletter hover */
+.navbar-form .btn-custom:hover{
+    background-color: #2d313e
+}
+
+/* taking out repetitive
+h2 {
+    color: #212539;
+}
+*/
+table{
+    border-collapse: collapse;
+}
+/* Added Bootstrap Classes to tables */
+td, th, .table>tbody>tr>td, .table>tbody>tr>th{
+    text-align: left;
+    padding: 5px;
+}
+td, .table>tbody>tr>td{
+    border:1px solid #dddddd;
+}
+tr:nth-child(even){
+    /* changing color to a lighter blue EA
+    background-color: #9ee5ff; */
+    background-color: #EEF6F9;
+}
+
+/* Footer Styles */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Here is where you set the fixed height of the footer */
+    max-height: 75px;
+    background-color: #2d313e;
+}
+
+/* Vanessa's styles for footer */
+
+footer img {
+    position: absolute;
+    max-height: 75px;
+    top: 0;
+    left: 0;
+    margin-top: -40px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer a, footer a:visited, footer a:active {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #f99e3e;
+}
+
+/* End of */
+
+footer p{
+    margin: 20px;
+    color: #fff;
+}
+
+/* Weather Widget Headline font */
+.aw-current-weather-inner h3{
+    color:#fff;
+}
+
+
+/* Neighborhoods Icons */
+ul.moreHoods{
+    list-style-type: none;
+    padding-left: 30px;
+    background: #f4f4f5;
+    border-radius: 10px;
+    padding-right: 30px;
+    padding-bottom: .5em;
+}
+
+
+ul.moreHoods .material-icons{
+    color: #2076cf;
+    vertical-align: middle;
+}
+ul.moreHoods li{
+    padding: .5em;
+    border-bottom: 1px solid #333;
+    margin-bottom: .5em;
+}
+
+/* Testimonial BG */
+blockquote.quote {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+blockquote.quote p:first-of-type {
+    position: relative;
+    padding: 19px 30px 26px;
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+blockquote.quote-2 p:first-of-type {
+    background-color: #f4f4f5;
+}
+
+blockquote.quote-2 p:first-of-type:before {
+    border-color: transparent #f4f4f5 transparent transparent;
+}
+
+/* Contact Us */
+
+.center-block{
+    text-align:center;
+}
+
+/* Jumbotron padding */
+
+.jumbotron{
+    padding: 0;
+}
+
+/*==========================================================================
+   Tea's custom styles
+   ==========================================================================
+
+ style=" width:100%; height: 350px !important;"  style in  carousel inner
+
+
+/* My Carousel Styles*/
+
+#myCarousel .item {
+    height: 360px;
+}
+#myCarousel .carousel-control{
+    height: 340px;
+}
+
+.carousel-inner > .item >.carousel-caption p{
+    font-size: 24px;
+}
+.carousel-inner > .item >.carousel-caption h1{
+    font-size: 30px;
+}
+
+footer{
+    background: #333;
+    color: #eee;
+    font-size:12px;
+    padding: 20px;
+    width: 100%;
+}
+ul.unstyled li a{
+    color:whitesmoke;
+}
+ul.unstyled{
+    list-style: none;
+    margin:0;
+}
+ul.unstyled li a:hover{
+    color:white;
+}
+
+/*end Tea's styles*/
+
+.nav .open > a, .nav .open >a:focus, .nav .open>a:hover  .nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    color: #2076CF;
+    background-color: white;
+}
+
+.navbar-toggle li a {
+    background-color: white;
+}
+
+.icon-bar {
+    color: white;
+}
+
+/* Making Subnav appear on hover */
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .sub-menu:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+}
+.navbar .sub-menu:after {
+    border-top: 6px solid transparent;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    left: 10px;
+    top: 11px;
+    left: -6px;
+}
+
+/* Tea's Code'*/
+.col-sm-2 h6{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+ul.siteMap{
+    list-style-type: none;
+    color:black;
+}
+
+.sitemap {
+    display: block;
+}
+
+/* Elizabeth */
+
+.neighborhood p {
+
+    margin-top: 1em;
+}
+
+@media(max-width:991px) {
+    #myCarousel .item {
+        height: 250px;
+    }
+    #myCarousel .carousel-control{
+        height: 190px;
+    }
+}
+
+@media(max-width:767px) {
+
+    #myCarousel .item{
+        height: 160px;
+    }
+    #myCarousel .carousel-control{
+        height: 160px;
+    }
+    .carousel-inner > .item >.carousel-caption p{
+        font-size: 18px;
+    }
+    .carousel-inner > .item >.carousel-caption h1{
+        font-size: 24px;
+    }
+}
+
+
+@media(max-width:480px) {
+    
+    .jumbotron{
+        min-height:100px;
+    }
+    #myCarousel .item {
+        height: 110px;
+    }
+    #myCarousel .carousel-control{
+        height: 90px;
+    }
+    .carousel-inner > .item >.carousel-caption p{
+        font-size: 13px;
+        visibility: hidden;
+    }
+    .carousel-inner > .item >.carousel-caption h1{
+        font-weight: bold;
+        margin:-26px;
+        font-size: 16px;
+    }
+    
+    /* Hide 3rd Column of Table */
+    .table>tbody>tr>th:nth-child(3), 
+    .table>tbody>tr>th:nth-child(4), 
+    .table>tbody>tr>td:nth-child(3),
+    .table>tbody>tr>td:nth-child(4){
+        display:none;
+    }
+}
