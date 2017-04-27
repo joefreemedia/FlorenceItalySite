@@ -1,4 +1,4 @@
-# FlorenceItalySite
+# Florence Italy Travel Site
 Florence Italy Travel Site
 Bootstrap website project - travel site highlighting Florence Italy
 
